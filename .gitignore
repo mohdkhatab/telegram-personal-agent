@@ -1,0 +1,25 @@
+# Secrets - NEVER commit
+.env
+*.session
+*.session-journal
+otp.txt
+pwd.txt
+
+# Runtime state and logs
+STOP
+.keepalive.lock
+login_state.json
+login_result.json
+last_check.txt
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
